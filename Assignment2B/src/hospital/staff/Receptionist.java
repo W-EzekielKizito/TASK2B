@@ -1,11 +1,11 @@
-package hospital.records;
+package hospital.staff;
 
-import hospital.records.Patient;
+import hospital.records.PatientData;
 import hospital.records.Finance;
 
 public class Receptionist {
 
-    public void viewBasicInfo(Patient p) {
+    public void viewBasicInfo(PatientData p) {
         // ALLOWED: public variables
         System.out.println("Receptionist sees Name: " + p.name);
         System.out.println("Receptionist sees Date: " + p.appointmentDate);
