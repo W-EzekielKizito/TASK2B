@@ -1,4 +1,4 @@
-package hospital.file;
+package hospital.records;
 
 public class PatientData {
     private String patientId = "P-101";

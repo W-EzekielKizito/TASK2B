@@ -1,6 +1,6 @@
 package hospital.staff;
 
-import hospital.file.PatientData;
+import hospital.records.PatientData;
 
 public class Doctor extends PatientData {
 
